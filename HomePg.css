@@ -1,0 +1,240 @@
+body {
+    color: rgb(88, 106, 109);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3{
+    font-family:'Poppins', sans-serif;
+}
+
+a:link, a:after {
+    opacity: 1;
+    -webkit-animation: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    transition: all .15s linear;
+    colour: #555
+}
+
+a:hover, a:active {
+    opacity: .6;
+}
+
+li {
+    margin-left: 0px;
+    line-height: 1.6em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    opacity: .8;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 140px 0;
+    display: inline-block;  
+    background: transparent 50% 50% no-repeat; 
+}
+
+.logo-title {
+    text-align: center;
+    padding: 0px 20px;
+    color: rgb(40, 68, 70);
+}
+
+.title h1{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: rgb(40, 68, 70);
+    letter-spacing: 5px;
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 40px;
+    border: 3px solid rgb(40, 68, 70);
+    display: inline-block;
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: rgb(10, 121, 129) ;
+    font-weight: 400;
+    padding: 20px 0;
+    margin-bottom: 80px;
+    font-size: 11px;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.nav li {
+    margin: 0 10px;
+    display: inline;
+    line-height: 1;
+}
+
+.content {
+    max-width: 700px;
+    padding: 0 20px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #f2f2f2;
+    margin-top: 80px;
+}
+
+.media {
+    margin-bottom: 20px;
+}
+
+.media-text {
+    display: block;
+    height: 10px;
+    line-height: 1em;
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 120px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(88, 106, 109);
+    text-transform: uppercase;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.photoCaption {
+    max-width: 100%;
+}
+
+div {
+    display: block;
+}
+
+.follow-teaser .p1 {
+    margin: 0;
+        margin-left: 0px;
+}
+
+.p1 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h4 {
+    font-weight: bold;
+    padding: 0;
+    border: 0;
+}
+  
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+  
+.homepage-newsletter-sign-up-unit {
+    background-color: #57696d;
+    padding: 38px 0 45px 0;
+}
+  
+.homepage-newsletter-sign-up-unit-container {
+    color: white;
+    margin: 0 auto;
+    max-width: 343px;
+}
+  
+.mailing-list_header {
+    font-weight: 700;
+    display: block;
+}
+  
+.mailing-list_header, .mailing-list_blurb {
+    max-width: 300px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
+  
+.mailing-list_form-containter {
+    position: relative;
+}
+  
+.mailing-list_form, input {
+    border-right: none;
+    border-radius: 1px 0 0 1px;
+    padding: 10px;
+}
+  
+.text-box {
+    background: white;
+    width: 100%;
+    height: 45px;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px 12px;
+    color: cadetblue;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 1px;
+    appearance: none;
+}
+  
+.mailing-list_btn {
+    width: 98px;
+    margin: 0;
+    border-radius: 0 1px 1px 0;
+    font-size: 14px;
+    line-height: 45px;
+}
+  
+.btn--default {
+    background: #2d4558;
+    width: 100%;
+    font-size: 17px;
+    line-height: 50px;
+}
+  
+.btn {
+    border: none;
+    border-radius: 1px;
+    padding: 0 8px;
+    outline: none;
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
